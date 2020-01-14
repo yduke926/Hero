@@ -53,7 +53,7 @@ button:focus {
     background-image: url('https://images.unsplash.com/photo-1497514964530-228022fdfecd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2090&q=80');
     background-position: center;
     background-size: cover;
-    flex: 1 1 25rem;
+    flex: 1 0 50%;
 }
 
 @media screen and (max-width: 499px) {
@@ -62,18 +62,17 @@ button:focus {
         justify-content: center;
         align-items: center;
         width: 100%;
-        padding-top: 4rem;
+        padding: 4rem;
     }
 
     .hero-welcome h1 {
-        /* text-align: center; */
         font-size: 2.5rem;
     }
 
     .hero-img {
         background-size: 90%;
         background-repeat: no-repeat;
-        margin: 0 auto;
+        margin: auto;
         height: 60%;
     }
 }
